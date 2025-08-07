@@ -1,27 +1,65 @@
-# EssentialsPractice
+# 📈 Easy Investment Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+**Easy Investment Calculator** é uma aplicação Angular desenvolvida para simular investimentos com base em valores, taxas de juros e tempo. Ideal para fins didáticos, ela demonstra conceitos de formulários, bindings, cálculos e renderização dinâmica com Angular.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias Utilizadas
 
-## Code scaffolding
+- [Angular 20](https://angular.io/)
+- TypeScript
+- HTML5 & CSS3
+- Vite (via Angular CLI)
+- Node.js & npm
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## ✨ Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Entrada de valores iniciais, taxa de juros e período (em meses)
+- Cálculo de montante final com base em juros compostos
+- Exibição de resumo com valores formatados
+- Layout simples, responsivo e direto ao ponto
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📸 Screenshots
 
-## Running end-to-end tests
+### 🏁 Tela Inicial
+![Initial Screen](public/1-initial-screen.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🧮 Preenchimento dos Dados
+![Input Example](public/2-input.png)
 
-## Further help
+### 📊 Resultado da Simulação
+![Output Result](public/3-output.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🧬 Branches Disponíveis
+
+| Branch | Descrição |
+|--------|-----------|
+| `main` | Versão básica funcional da calculadora |
+| `feature/modules` | Refatoração aplicando Angular Modules |
+| `feature/signals` | Reescrita utilizando Angular Signals para reatividade |
+
+---
+
+## 🛠️ Como Rodar o Projeto
+
+### Pré-requisitos
+
+- Node.js **v18.17.0 ou superior** (recomendado: **v20.x**)
+- npm **v9 ou superior**
+
+### Passos
+
+```bash
+# 1. Instale as dependências
+npm install
+
+# 2. Rode o projeto
+npm start
+
+📍 A aplicação estará disponível em http://localhost:4200
